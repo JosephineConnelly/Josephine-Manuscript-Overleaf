@@ -21,14 +21,13 @@
 \author[2]{Guillaume Paul Ramstein}
 \author[3]{Wolf L Eiserhardt}
 \author[4]{Torben Asp}
-\author[5]{Josephine Estelle Ananda Connelly}
 
-\affil[1]{Centre for Quantitative Genetics and Genomics, Faculty of Technical Sciences, Aarhus University (DK).}
-\affil[2]{Department of Biology, Faculty of Natural Sciences, Aarhus University, (DK).}
+\affil[1,2,4]{Centre for Quantitative Genetics and Genomics, Faculty of Technical Sciences, Aarhus University (DK).}
+\affil[1,3]{Department of Biology, Faculty of Natural Sciences, Aarhus University, (DK).}
 \affil[3]{Royal Botanic Gardens, Kew, (UK).}
 
 
-\correspondingauthoraffiliation[$\ast$]{Corresponding author: AU, Connelly.}
+\correspondingauthoraffiliation[$\ast$]{Corresponding author: AU, JosephineConnelly@qgg.uni.dk.}
 
 \begin{abstract}
 Soybean (Glycine max L. Merrill) is the worlds leading  oilseed crop used as a  primary source of vegetable oil for human consumption and in proteinmeal for animal feed.
@@ -49,7 +48,7 @@ Soybean (Glycine max L. Merrill) is the worlds leading  oilseed crop used as a  
 
 \section{Abstract}
 
-Soybean, belonging to the Fabaceae family and scientifically known as \textit{Glycine max} (L. Merrill), is globally recognized as the primary legume crop due to its high protein and oil content. However, its genetic diversity has decreased over time due to domestication and intensive artificial selection, driving the need to look elsewhere to increase germplasm utilization for abiotic adaptation \citep{hyten06, gizlice96}.  Relevant accessions with the potential for abiotic adaptation to cold tolerance have been identified [@haupt20]. Additionally 160 Swedish accessions originating from a Swedish breed for the adaptation to the cool climate of north western Europe and stored in the NordGen gene bank have been unearthed [@holmberg1973]. We will interpret the plant genetic resources available, so as to utilise the genetic potential. To facilitate targeted selection of promising accessions from soybeans vast germplasm collections,  and unveiling the genetic data stored in the NordGen seed banks. findings are: ... 
+Soybean, belonging to the Fabaceae family and scientifically known as \textit{Glycine max} (L. Merrill), is globally recognised as the primary legume crop due to its high protein and oil content. However, its genetic diversity has decreased over time due to domestication and intensive artificial selection, driving the need to look elsewhere to increase germplasm utilisation for abiotic adaptation \citep{hyten06, gizlice96}.  Relevant accessions with the potential for abiotic adaptation to cold tolerance have been identified [@haupt20]. Additionally 160 Swedish accessions originating from a Swedish breed for the adaptation to the cool climate of north western Europe and stored in the NordGen gene bank have been unearthed [@holmberg1973]. We will interpret the plant genetic resources available, so as to utilise the genetic potential. To facilitate targeted selection of promising accessions from soybeans vast germplasm collections,  and unveiling the genetic data stored in the NordGen seed banks. findings are: ... 
 
 \section{Introduction}
 
@@ -57,14 +56,14 @@ Soybean, belonging to the Fabaceae family and scientifically known as \textit{Gl
 
 
 \textit{soybean needs to be grown in the north}:  This argument but then for spread of growth area! "Modern U.S. soybean breeding has led to a yield increase of 29 kg ha/−1 yr/−1 (Rincker et al., 2014)" 
- ""Better understanding the genomic basis behind this improvement may provide indicators for further soybean improvement and adaptation. "  from: Sequencing the USDA core soybean collection reveals gene loss during domestication and breeding
+ "Better understanding the genomic basis behind this improvement may provide indicators for further soybean improvement and adaptation. "  from: Sequencing the USDA core soybean collection reveals gene loss during domestication and breeding"
 
 \textit{the swedish soybeans (goals and scope)}
 
 \textit{mention approaches}
 
 \textit{In this study we}
-The goal is to help precipitate the utilization of these soybean genetic resources. 
+The goal is to help precipitate the utilisation of these soybean genetic resources. 
 
 \section{Materials and methods}
 \label{sec:materials:methods}
@@ -76,16 +75,13 @@ The Core collection used here is a subset of the from a large soybean germplasm 
 USDA germplasm of soybean consists of ... soybase.org.  Founders 10. 
 
 wgs
-What was done: The accessions from the Nordgen genebank and the Core collection accessions were whole genome sequenced. Four of the Core collection seeds didn't germinate in time for the sequencing, resulting in accessions sequenced 574. Of the Nordgen accessions, Four were of Latvian origin and therefore excluded. 
-GATK: 
-The reads were aligned to the Williams 82 2a reference genome ( (Schmutz et al. 2010).) adapted from GATK Best Practices, keeping MQ30 and biallelic sites and applied a MAF filter of 0.01 in order to remove rare variants from the data, reducing the number of SNPs from 17,648,123 to 10,000,122. 
+\textit{What was done:} The accessions from the Nordgen genebank and the Core collection accessions were whole genome sequenced. Four of the Core collection seeds didn't germinate in time for the sequencing, resulting in accessions sequenced 574. Of the Nordgen accessions, Four were of Latvian origin and therefore excluded. 
+\textit{GATK:} The reads were aligned to the Williams 82 2a reference genome ( (Schmutz et al. 2010).) adapted from GATK Best Practices, keeping MQ30 and biallelic sites and applied a MAF filter of 0.01 in order to remove rare variants from the data, reducing the number of SNPs from 17,648,123 to 10,000,122. 
 For a detailed account of programs and commands used see supplementary material: \nameref{sec:supplementary:material} 
-From when i received it:
-A further three accessions were removed due to missing metadata and a single accessions with missing data > 5\% using BCFtools \cite{bcftools}, resulting in 153 nordgen accessions and 409 CCA accessions and a SNP count of 8,533,444. 
+\textit{From when i received it:} A further three accessions were removed due to missing metadata and a single accessions with missing data > 5\% using BCFtools \cite{bcftools}, resulting in 153 nordgen accessions and 409 CCA accessions and a SNP count of 8,533,444. 
 
 
-SNP data
-The snp data is a high-density genotyping array for soybean with 47,337 single nucleotide polymorphisms (SNPs) was develop from soybean (Glycine max L. Merr.). The SoySNP50K iSelect BeadChip has been used to genotype the USDA Soybean Germplasm Collection and is available for use from soybase
+\textit{SNP data:} The SNP data is a high-density genotyping array for soybean with 47,337 single nucleotide polymorphisms (SNPs) was develop from soybean (Glycine max L. Merr.). The SoySNP50K iSelect BeadChip has been used to genotype the USDA Soybean Germplasm Collection and is available for use from soybase
  An intersect was made of the whole genome sequenced
 35486
 
@@ -96,21 +92,14 @@ Q
 To infer population stratification of the Swedish accessions from the NordGen gene bank and the Core collection and of the 12 accessions assumed to be founders of the Swedish breeding program.
 
 Method
-pca
-Principal component analysis were applied using the package SnpRelate in R (A Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data). 
+Principal Component Analysis (PCA) on SNP genotype data were applied using the package SnpRelate in R (A Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data). The functions in SNPRelate for PCA used (snpgdsPCA) calculate genetic covariance matrix from genotypes, computing the correlation coefficients between sample loadings and genotypes for each SNP. SNP eigenvectors were calculated. For the PCA the whole genome sequence was used for some of the PCA or the  intersect of the whole genome sequences the Core Collection accessions, the Swedish Nordgen accessions and the 50kSNP data available of the ten accessions identified as possible genetic Founders to the Swedish breeding program is used as indicated in the figure \ref{fig:pca}
 
+The package SNPRelate in R was used to compute an identity-by-state (IBS) matrix that calculates the proportion that two randomly selected reads that contain a certain SNP locus are the same or different between two individuals. The resulting pairwise IBS matrix was used to generate a cluster dendogram using the function \textit{snpgdsHCluster: Hierarchical cluster analysis In SNPRelate }in R. 
 
-IBS Matrix: The package SNPRelate in R was used to compute an identity-by-state (IBS) matrix that calculates the proportion that two randomly selected reads that contain a certain SNP locus are the same or different between two individuals. The resulting pairwise IBS matrix was used to generate a cluster dendogram using the function \textit{snpgdsHCluster: Hierarchical cluster analysis In SNPRelate }in R. 
+The population differentiation measured in the populations the swedish accessions as a subpopulation and the core collection as a representation of the total population
+Fst is comparing the expected heterozygosity in the subpopulation (HS) to that expected in the total population HT :
+\(FST =1− (HS/HT)\)
 
-
- snpgdsHCluster: Hierarchical cluster analysis
-In SNPRelate: Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data 
-
-
-
-realisation that 2 of the swedish were likely not a part of the swedish breeding program and excluded 
-see Supplimentary material for accession data. 
-Fst of the swedish vs the cca
 
 H2 
 Q diversity 
@@ -134,43 +123,29 @@ Indicate what statistical analysis has been performed.
 \subsection{population structure and genetic differentiation} 
 
 H1: 
-To better understand the population relationships of the accessions received from the Nordic gene bank and how they are related to each other, and the rest of the soybean germplasm, they are compared to a core collection of 409 soybean from the USDA genebank selected from the soybean (Glycine max) germplasm for Central European breeding.  The Core collection used here is a subset of the from a large soybean germplasm collection, the  USDA genebank accessions, that are likely preadapted to cultivation in Central Europe, while simultaneously conserving a high level of genetic diversity (CCA paper). Additionally accessions were grouped into categories based on known breeding history, So the suspected Founders of the Swedish breeding program are grouped together. Here an intersect of the whole genome sequences the Core Collection accessions, the Swedish Nordgen accessions and the 50kSNP data available of the ten accessions identified as possible genetic Founders to the Swedish breeding program is used. 
+To better understand the population relationships of the accessions received from the Nordic gene bank and how they are related to each other, and the rest of the soybean germplasm , they are compared to a core collection of 409 soybean from the USDA genebank selected from the soybean (Glycine max) germplasm for Central European breeding.  The Core collection used here is a subset of the soybean germplasm collection, the  USDA genebank accessions, which are assessed to be  preadapted to cultivation in Central Europe, while simultaneously conserving a high level of genetic diversity \cite{haupt20}. Additionally accessions were grouped into categories based on the suspected breeding history.  There are the ten suspected Founders of the Swedish breeding program and the Swedish accessions of the Nordgen genebak. 
 
-To understand the population differentiation/ diversity, a Principal Component Analysis (PCA) and the genome-wide Identity By State (IBS) pairwise distance matrix were applied. The resulting PCA shows the Swedish accessions as a sub group seen in green in (Figure \ref{fig:pca}) . A closer look at the Nordgen Swedish accessions reviled two accessions that were not part of the particular breeding program as seen in (Figure X showing the SBPA PCA with circles around the two accessions not from the breeding program)  and also thereafter confirmed by the genebank passport data. (Or do i simply remove these from the analysis and only mention that they are excluded up in the methods when describing the data)    
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{plot_PCA_origin.pdf}
-\caption{This PCA shows the CCA in black, the SBPA in green and the thought to be founders in red.}%
-\label{fig:pca}
-\end{figure}
-
- and the IBS (Figure  \ref{fig:dendo}) shows . 
+A Principal Component Analysis (PCA) and the genome-wide Identity By State (IBS) pairwise distance matrix were applied to visualise the overall variance of the data. The resulting PCA (Figure \ref{fig:pca}) shows clustering of the Swedish accessions as a sub group based on similarity . A closer look at the Nordgen Swedish accessions reviled two accessions that were not part of the particular breeding program as seen in (Figure \ref{fig:pca3}  showing the PCA indicating the two accessions not from the breeding program in the cluster with the CCA in orange and black)  and also thereafter confirmed by the genebank passport data that they originated from other swedish soybean breeding programs (mention more here when certian. Altonagård and Ugra soja/ saja, malmåhus) .  This figure also shows the accessions of the Nordgen and core collection that are swedish of origin and with a name consisting of letters (excluding numbers or non-alphanumeric charachters of theaccessions names) if included in the data. 
+The IBS (Figure  \ref{fig:dendo}) clearly shows the swedish accessions of the breeding program of interest clustering together. The  
  IBS numbers in a table showing ibs within sbpa and out?
 
-The genetic differentiation measured by FST 
+The population differentiation measured by Fst
 
 
 
 
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{rainbow.pdf}
-\caption{Hierarchical cluster dendrogram based on pairwise identity-by-state (IBS) values from WGS data for all samples. }%
-\label{fig:dendo}
-\end{figure}
+
+
+
+postulate: And population subdivision analysis will quantify the SPBA will be a distinct subpopulation with a moderate to distinct allele frequency difference.
 
 \subsection{Genetic diversity} 
-
-MAF?
-LD
-pi 
-theta
+H2
 
 
 \subsection{Genome wide selection signatures} 
-gws.
+H3
 
 
 
@@ -178,67 +153,44 @@ gws.
 
 The Swedish soybeans are are mainly a snapshot of a breeding program stopped around 1978 and all lines or recent crosses from this program were then set into the  
 
-
-
-\section{Additional guidelines}
-
-\subsection{Numbers} In the text, write out numbers nine or less except as part of a date, a fraction or decimal, a percentage, or a unit of measurement. Use Arabic numbers for those larger than nine, except as the first word of a sentence; however, try to avoid starting a sentence with such a number.
-
-\subsection{Units} Use abbreviations of the customary units of measurement only when they are preceded by a number: "3 min" but "several minutes". Write "percent" as one word, except when used with a number: "several percent" but "75\%." To indicate temperature in centigrade, use ° (for example, 37°); include a letter after the degree symbol only when some other scale is intended (for example, 45°K).
-
-\subsection{Nomenclature and italicization} Italicize names of organisms even when  when the species is not indicated.  Italicize the first three letters of the names of restriction enzyme cleavage sites, as in HindIII. Write the names of strains in roman except when incorporating specific genotypic designations. Italicize genotype names and symbols, including all components of alleles, but not when the name of a gene is the same as the name of an enzyme. Do not use "+" to indicate wild type. Carefully distinguish between genotype (italicized) and phenotype (not italicized) in both the writing and the symbolism.
-
-\subsection{Cross references}
-Use the \verb|\nameref| command with the \verb|\label| command to insert cross-references to section headings. For example, a \verb|\label| has been defined in the section \nameref{sec:materials:methods}.
-
-
-
-\section{In-text citations}
-
-Add citations using the \verb|\citep{}| command, for example \citep{neher2013genealogies} or for multiple citations, \citep{neher2013genealogies, rodelsperger2014characterization,Falush16}
-
-\section{Examples of article components}
-\label{sec:examples}
-
-The sections below show examples of different header levels, which you can use in the primary sections of the manuscript (Results, Discussion, etc.) to organize your content.
-
-\section{First level section header}
-
-Use this level to group two or more closely related headings in a long article.
-
-\subsection{Second level section header}
-
-Second level section text.
-
-\subsubsection{Third level section header:}
-
-Third level section text. These headings may be numbered, but only when the numbers must be cited in the text.
-
 \section{Figures and tables}
 
 Figures and Tables should be labelled and referenced in the standard way using the \verb|\label{}| and \verb|\ref{}| commands.
 
-\subsection{PCA figure}
+\subsection{PCA1 figure}
 
 Figure \ref{fig:pca} shows an example figure.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{plot_PCA_origin.pdf}
-\caption{This PCA shows the CCA in black, the SBPA in green and the thought to be founders in red.}%
+\caption{Principal component analysis for soybean samples from defined groups, Core collection Accessions (CCA) in black, the Swedish Breeding Program Accessions (SBPA) in green and the Founders of the breeding progran (F) in red.}%
 \label{fig:pca}
 \end{figure}
+\subsection{PCA2 figure}
 
-%\begin{figure}[htbp]
-%\centering
-%\includegraphics[width=\linewidth]{example-figure}
-%%\caption{Example movie (the figure file above is used as a placeholder for this example). \textit{GENETICS} supports video and movie files that can be linked from any portion of the article - including the abstract. Acceptable formats include .asf, avi, .wav, and all types of Windows Media files.
-%%}%
-%%\label{video:spectrum}
-%\end{figure}
 
-Figures and Tables should be labelled and referenced in the standard way using the \verb|\label{}| and \verb|\ref{}| commands.
+Figure \ref{fig:pca2} .
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{plot_PCA_mg1.pdf}
+\caption{Principal component analysis for soybean samples from the whole genome sequence data, including the 155 Nordgen accessions and the 409 Core collection accessions. Indicated is the Maturity groups assigned to the accessions.}
+\label{fig:pca2}
+\end{figure}
+
+
+\subsection{PCA3 figure}
+
+
+Figure \ref{fig:pca3} .
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{plot_PCA_flag.pdf}
+\caption{PCA MG status}%
+\label{fig:pca3}
+\end{figure}
 \subsection{Dendogram figure}
 
 Figure \ref{fig:dendo} shows an example figure.
@@ -249,16 +201,6 @@ Figure \ref{fig:dendo} shows an example figure.
 \caption{Hierarchical cluster dendrogram based on pairwise identity-by-state (IBS) values from SNP data for all samples. describe dendogram}%
 \label{fig:pca}
 \end{figure}
-
-%\begin{figure}[htbp]
-%\centering
-%\includegraphics[width=\linewidth]{example-figure}
-%%\caption{Example movie (the figure file above is used as a placeholder for this example). \textit{GENETICS} supports video and movie files that can be linked from any portion of the article - including the abstract. Acceptable formats include .asf, avi, .wav, and all types of Windows Media files.
-%%}%
-%%\label{video:spectrum}
-%\end{figure}
-
-Figures and Tables should be labelled and referenced in the standard way using the \verb|\label{}| and \verb|\ref{}| commands.
 
 \subsection{Sample figure}
 
@@ -285,6 +227,8 @@ Label multiple figure parts with A, B, etc. in bolded. Legends should start with
 %%}%
 %%\label{video:spectrum}
 %\end{figure}
+
+Figures and Tables should be labelled and referenced in the standard way using the \verb|\label{}| and \verb|\ref{}| commands.
 
 \subsection{Sample table}
 
@@ -322,6 +266,7 @@ denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{
 \section{Supplementary Material}
 \label{sec:supplementary:material}
 Supplementary Material Methods (S Methods)
+\href{PCA.html}
 
 \section{Data availability}
 
@@ -335,6 +280,11 @@ Funding, including Funder Names and Grant numbers should be included here.
 
 \section{Conflicts of interest}
 There are  no known conflicts of interest.
+
+\section{In-text citations}
+
+Add citations using the \verb|\citep{}| command, for example \citep{neher2013genealogies} or for multiple citations, \citep{neher2013genealogies, rodelsperger2014characterization,Falush16}
+
 
 \bibliography{bibliography}
 
